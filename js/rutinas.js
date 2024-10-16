@@ -7,5 +7,5 @@ function fijarHora() {
 
 window.addEventListener(
     'load',
-    setInterval(() => fijarHora(), 1000),
+    setInterval(() => fijarHora(), 10),
     false);
